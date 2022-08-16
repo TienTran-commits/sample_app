@@ -1,0 +1,5 @@
+<% provide(:title, t("footer.contact_ref")) %>
+<h1><%= t "footer.contact_ref" %></h1>
+<p>
+  <%= t("contact.description_html", contact_href: link_to(t("contact.contact_page_ref"), Settings.href.rails_contact_page)) %>
+</p>

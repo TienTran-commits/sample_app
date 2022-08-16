@@ -1,0 +1,6 @@
+<% provide(:title, t("header.help_ref")) %>
+<h1><%= t "header.help_ref" %></h1>
+<p>
+  <%= t("help.help_page_html", help_href: link_to(t("help.help_page_ref"), Settings.href.rails_help_page)) %>
+  <%= t("help.sample_help_html", sample_href: link_to(t("help.sample_ref_html"), Settings.href.book_page)) %>
+</p>

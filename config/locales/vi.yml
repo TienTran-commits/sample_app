@@ -1,0 +1,40 @@
+vi:
+  hello: "Xin chào"
+  base_title: "Ứng dụng mẫu cho hướng dẫn Ruby on Rails"
+  home:
+    welcome_message: "Chào mừng bạn tới Ứng dụng Mẫu"
+    description_html: "Đây là trang chủ cho ứng dụng mẫu của %{href}."
+    buttons:
+      signup: "Hãy đăng ký ngay bây giờ!"
+  header:
+    icon: "ứng dụng mẫu"
+    home_ref: "Trang chủ"
+    help_ref: "Trợ giúp"
+    login_ref: "Đăng nhập"
+    lang_en: "Tiếng Anh"
+    lang_vi: "Tiếng Việt"
+  footer:
+    ref_html: "%{tutorial_href} bởi"
+    tutorial_ref: "Ruby on Rails Tutorial"
+    author_ref: "Michael Hartl"
+    about_ref: "Về ứng dụng"
+    contact_ref: "Liên lạc"
+    news_ref: "Tin tức"
+  help:
+    help_page_html: "Yêu cầu trợ giúp cho Hướng dẫn Ruby on Rails tại %{help_href}."
+    help_page_ref: "đây"
+    sample_help_html: "Để được giúp đỡ về ứng dụng mẫu này, hãy xem cuốn %{sample_href}."
+    sample_ref_html: "<em>Ruby on Rails Tutorial</em>"
+  about:
+    description_html: "<em>%{rails_tutorial_href}</em>, một phần của đại gia đình %{learn_enough_href}, bao gồm cuốn %{rails_book_href} cũng như %{rails_screencast_href} với mục đích hướng dẫn phát triển ứng dụng web sử dụng %{rails_href}."
+    learn_enough_ref: "Learn Enough"
+    rails_book_ref: "Ruby on Rails Tutorial"
+    rails_screencast_ref: "series screencast"
+    rails_ref: "Ruby on Rails"
+    sample_intro: "Ứng dụng này được phát triển theo hướng dẫn."
+  contact:
+    description_html: "Truy cập Hướng dẫn Ruby on Rails về ứng dụng mẫu tại %{contact_href}."
+    contact_page_ref: "đây"
+  signup_page:
+    title: "Đăng ký"
+    description: "Đây sẽ là trang đăng ký dành cho người dùng mới."

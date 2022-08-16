@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t("footer.ref_html", tutorial_href: link_to(t("footer.tutorial_ref"), Settings.href.rail_tutorial)) %>
+    <%= link_to t("footer.author_ref"), Settings.href.author_page %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("footer.about_ref"), about_path %></li>
+      <li><%= link_to t("footer.contact_ref"), contact_path %></li>
+      <li><%= link_to t("footer.news_ref"), Settings.href.news_page %></li>
+    </ul>
+  </nav>
+</footer>
