@@ -31,3 +31,41 @@
 
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  home:
+    welcome_message: "Welcome to the Sample App"
+    description_html: "This is the home page for the %{href} sample application."
+    buttons:
+      signup: "Sign up now!"
+  header:
+    icon: "sample app"
+    home_ref: "Home"
+    help_ref: "Help"
+    login_ref: "Log in"
+    lang_en: "English"
+    lang_vi: "Vietnamese"
+  footer:
+    ref_html: "The %{tutorial_href} by "
+    tutorial_ref: "Ruby on Rails Tutorial"
+    author_ref: "Michael Hartl"
+    about_ref: "About"
+    contact_ref: "Contact"
+    news_ref: "News"
+  help:
+    help_page_html: "Get help on the Ruby on Rails Tutorial at the %{help_href}."
+    help_page_ref: "Rails Tutorial help page"
+    sample_help_html: "To get help on this sample app, see the %{sample_href} book."
+    sample_ref_html: "<em>Ruby on Rails Tutorial</em>"
+  about:
+    description_html: "The <em>%{rails_tutorial_href}</em>, part of the %{learn_enough_href} family of tutorials, is a %{rails_book_href} and %{rails_screencast_href} to teach web development with %{rails_href}."
+    learn_enough_ref: "Learn Enough"
+    rails_book_ref: "book"
+    rails_screencast_ref: "screencast series"
+    rails_ref: "Ruby on Rails"
+    sample_intro: "This is the app for the tutorial."
+  contact:
+    description_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_href}."
+    contact_page_ref: "contact page"
+  signup_page:
+    title: "Sign up"
+    description: "This will be a signup page for new users."

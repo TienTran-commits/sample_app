@@ -1,0 +1,12 @@
+<% provide(:title, t("footer.about_ref")) %>
+<h1><%= t "footer.about_ref" %></h1>
+<p>
+  <%= t("about.description_html",
+    rails_tutorial_href: link_to(t("footer.tutorial_ref"), Settings.href.rails_tutorial),
+    learn_enough_href: link_to(t("about.learn_enough_ref"), Settings.href.learn_enough_page),
+    rails_book_href: link_to(t("about.rails_book_ref"), Settings.href.book_page),
+    rails_screencast_href: link_to(t("about.rails_screencast_ref"), Settings.href.screencast_page),
+    rails_href: link_to(t("about.rails_ref"), Settings.href.ruby_on_rails)) %>
+
+  <%= t "about.sample_intro" %>
+</p>
