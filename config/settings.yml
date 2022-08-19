@@ -8,3 +8,11 @@ href:
   learn_enough_page: "https://www.learnenough.com/"
   screencast_page: "https://screencasts.railstutorial.org/"
   rails_contact_page: "https://www.railstutorial.org/contact"
+
+validation:
+  name_max_digits: 50
+  email_max_digits: 255
+  password_min_digits: 6
+
+regex:
+  email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
