@@ -69,3 +69,13 @@ en:
   signup_page:
     title: "Sign up"
     description: "This will be a signup page for new users."
+    name_label: "Name"
+    email_label: "Email"
+    password_label: "Password"
+    confirm_label: "Confirmation"
+    submit_button: "Create my account"
+  error:
+    msg_prefix: "The form contains"
+    msg_err_unit: "error"
+    signup_failed: "Sign up failed!"
+    usr_not_found: "User not found!"

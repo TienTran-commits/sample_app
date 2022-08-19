@@ -16,3 +16,6 @@ validation:
 
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+
+gravatar:
+  href: "https://secure.gravatar.com/avatar"
