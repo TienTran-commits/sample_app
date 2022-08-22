@@ -84,9 +84,23 @@ en:
     ques: "New user?"
     button: "Log in"
     chkbox_note: "Remember me on this computer"
+  edit_page:
+    head: "Edit user"
+    title: "Update your profile"
+    submit_button: "Save changes"
+    avt: "change"
+    updted: "Profile updated"
+  index_page:
+    title: "All users"
   error:
     msg_prefix: "The form contains"
     msg_err_unit: "error"
     signup_failed: "Sign up failed!"
     usr_not_found: "User not found!"
     login_failed: "Invalid email/password combination."
+    upd_failed: "Update failed!"
+    rm_failed: "Can not delete user!"
+  usr_msg: "Please log in."
+  admin:
+    warn: "You sure?"
+    rm_noti: "User deleted"

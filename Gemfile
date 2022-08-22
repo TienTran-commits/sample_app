@@ -15,6 +15,8 @@ gem "redis", "~> 4.0"
 gem "bcrypt", "~> 3.1.7"
 gem "config"
 gem "rails-i18n"
+gem "faker"
+gem "pagy"
 
 gem "image_processing", "~> 1.2"
 
