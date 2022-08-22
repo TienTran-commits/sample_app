@@ -83,6 +83,7 @@ en:
     title: "Log in"
     ques: "New user?"
     button: "Log in"
+    chkbox_note: "Remember me on this computer"
   error:
     msg_prefix: "The form contains"
     msg_err_unit: "error"
