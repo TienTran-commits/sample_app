@@ -6,14 +6,14 @@
         <li><%= link_to t("header.home_ref"), root_path %></li>
         <li><%= link_to t("header.help_ref"), help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t("header.users_ref"), "#" %></li>
+          <li><%= link_to t("header.users_ref"), users_path  %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <%= t "header.acc_ref" %> <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to t("header.prf_ref"), current_user %></li>
-              <li><%= link_to t("header.set_ref"), "#" %></li>
+              <li><%= link_to t("header.set_ref"), edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>
                 <%= link_to t("header.logout_ref"), logout_path, method: :delete %>

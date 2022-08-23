@@ -1,7 +1,8 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
 
-  before_save {email.downcase!}
+  # Em chay "framgia-ci run --local" thi no bao khong duoc de dau cach o day a
+  before_save{email.downcase!}
   validates :name, presence: true,
                    length: {maximum: Settings.validation.name_max_digits}
   validates :email, presence: true,
@@ -37,8 +38,6 @@ class User < ApplicationRecord
 
   # Returns true if the given token matches the digest.
   def authenticated? remember_token
-    return false if remember_digest.nil?
-
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 

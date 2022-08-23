@@ -19,3 +19,6 @@ regex:
 
 gravatar:
   href: "https://secure.gravatar.com/avatar"
+
+pagy:
+  limit_per_page: 30

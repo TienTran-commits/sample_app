@@ -53,9 +53,23 @@ vi:
     ques: "Người dùng mới?"
     button: "Đăng nhập"
     chkbox_note: "Nhớ thông tin đăng nhập của tôi trên máy tính này"
+  edit_page:
+    head: "Chỉnh sửa"
+    title: "Cập nhật hồ sơ của bạn"
+    submit_button: "Lưu"
+    avt: "thay đổi"
+    updted: "Hồ sơ đã được cập nhật"
+  index_page:
+    title: "Tất cả người dùng"
   error:
     msg_prefix: "Mẫu này có"
     msg_err_unit: "lỗi"
     signup_failed: "Đăng ký tài khoản mới không thành công!"
     usr_not_found: "Không tìm thấy người dùng!"
     login_failed: "Sai email hoặc mật khẩu"
+    upd_failed: "Cập nhật thất bại!"
+    rm_failed: "Sao lại không xóa được nhỉ?"
+  usr_msg: "Xin hãy đăng nhập"
+  admin:
+    warn: "Bạn chắc chứ? :v"
+    rm_noti: "Xóa rồi đấy nhé không lấy lại được đâu :v"
