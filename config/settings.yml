@@ -19,9 +19,20 @@ regex:
 
 gravatar:
   href: "https://secure.gravatar.com/avatar"
+  size: 50
 
 pagy:
-  limit_per_page: 30
+  usr_per_page: 30
+  micro_per_page: 10
 
 pw_res:
   expire: 2
+
+microposts:
+  max_chars: 140
+
+img:
+  size_limit: 5
+  resolution_limit: [500, 500]
+  formats: <%= %w[image/jpeg image/gif image/png] %>
+  accepted_formats: "image/jpeg,image/gif,image/png"

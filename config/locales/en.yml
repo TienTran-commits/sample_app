@@ -102,12 +102,14 @@ en:
     login_failed: "Invalid email/password combination."
     upd_failed: "Update failed!"
     rm_failed: "Can not delete user!"
-    usr_msg: "Please log in."
     invalid_activation_link: "Invalid activation link"
     email_add_not_found: "Email address not found"
     pw_res_failed: "Invalid password"
     res_link_expired: "Password reset has expired."
     pw_empty: "can't be empty"
+    post:
+      not_deleted: "Failed to delete."
+  usr_msg: "Please log in."
   admin:
     warn: "You sure?"
     rm_noti: "User deleted"
@@ -135,3 +137,21 @@ en:
       warn: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
     btn: "Update password"
     noti: "Password has been reset."
+  micropost:
+    label: "Microposts"
+    posted: "Posted "
+    ago: " ago."
+    created_noti: "Micropost created!"
+    placeholder: "Compose new micropost..."
+    btn: "Post"
+    del: "delete"
+    warn: "You sure?"
+    noti: "Micropost deleted"
+    img_fmt_warn: "must be a valid image format"
+    img_size_warn: "should be less than 5MB"
+    img_alert: "Maximum file size is 5MB. Please choose a smaller file."
+  prf:
+    link: "view my profile"
+    posts: " micropost"
+  feed:
+    title: "Micropost Feed"
