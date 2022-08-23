@@ -48,6 +48,7 @@ vi:
     password_label: "Mật khẩu"
     confirm_label: "Xác nhận"
     submit_button: "Tạo tài khoản mới"
+    noti: "Xin hay kiem tra email cua ban de co the kich hoat tai khoan."
   login_page:
     title: "Đăng nhập"
     ques: "Người dùng mới?"
@@ -69,7 +70,19 @@ vi:
     login_failed: "Sai email hoặc mật khẩu"
     upd_failed: "Cập nhật thất bại!"
     rm_failed: "Sao lại không xóa được nhỉ?"
+    invalid_activation_link: "Invalid activation link"
   usr_msg: "Xin hãy đăng nhập"
   admin:
     warn: "Bạn chắc chứ? :v"
     rm_noti: "Xóa rồi đấy nhé không lấy lại được đâu :v"
+  mailer:
+    sbj: "Kích hoạt tài khoản"
+    html:
+      title: "Ung dung Mau"
+    content:
+      greet: "Xin chào"
+      wel_msg: "Chào mừng bạn tới Ứng dụng Mẫu! Hãy nhấp chuột vào đường dẫn dưới đây để được xem phim ... à nhầm, để có thể kích hoạt tài khoản của bạn :v"
+    act_ref: "Click de kich hoat"
+  user:
+    not_activated_warn: "Tai khoan khong duoc kich hoat. Hay tim duong dan kich hoat trong email cua ban."
+    activated_noti: "Da kich hoat"
