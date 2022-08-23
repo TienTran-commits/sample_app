@@ -54,6 +54,7 @@ vi:
     ques: "Người dùng mới?"
     button: "Đăng nhập"
     chkbox_note: "Nhớ thông tin đăng nhập của tôi trên máy tính này"
+    forgot_pw: "(quen mat khau)"
   edit_page:
     head: "Chỉnh sửa"
     title: "Cập nhật hồ sơ của bạn"
@@ -63,14 +64,18 @@ vi:
   index_page:
     title: "Tất cả người dùng"
   error:
-    msg_prefix: "Mẫu này có"
+    msg_prefix: "Mẫu này có %{err_count}"
     msg_err_unit: "lỗi"
     signup_failed: "Đăng ký tài khoản mới không thành công!"
     usr_not_found: "Không tìm thấy người dùng!"
     login_failed: "Sai email hoặc mật khẩu"
     upd_failed: "Cập nhật thất bại!"
     rm_failed: "Sao lại không xóa được nhỉ?"
-    invalid_activation_link: "Invalid activation link"
+    invalid_activation_link: "Duong dan khong hop le"
+    email_add_not_found: "Khong tim thay dia chi email"
+    pw_res_failed: "Mat khau khong hop le."
+    res_link_expired: "Link cap lai mat khau da het han."
+    pw_empty: "khong duoc de trong"
   usr_msg: "Xin hãy đăng nhập"
   admin:
     warn: "Bạn chắc chứ? :v"
@@ -83,6 +88,19 @@ vi:
       greet: "Xin chào"
       wel_msg: "Chào mừng bạn tới Ứng dụng Mẫu! Hãy nhấp chuột vào đường dẫn dưới đây để được xem phim ... à nhầm, để có thể kích hoạt tài khoản của bạn :v"
     act_ref: "Click de kich hoat"
+    sbj_pw_reset: "Cap lai mat khau"
   user:
     not_activated_warn: "Tai khoan khong duoc kich hoat. Hay tim duong dan kich hoat trong email cua ban."
-    activated_noti: "Da kich hoat"
+    activated_noti: "Da kich hoat."
+  forgot_pw:
+    title: "Quen mat khau"
+    btn: "Gui link reset"
+    email_sent_noti: "Huong dan cap lai mat khau da duoc gui toi email cua ban."
+  pw_res:
+    content:
+      link_ref: "De cap lai mat khau vui long click vao link ben duoi"
+      link: "Cap lai mat khau"
+      des: "Link se khong the truy cap sau 2h."
+      warn: "Neu ban khong yeu cau cap lai mat khau, xin hay bo qua thu nay va mat khau cua ban van se duoc giu nhu cu."
+    btn: "Cap lai mat khau"
+    noti: "Mat khau da duoc cap lai."
