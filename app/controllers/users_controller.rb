@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @pagy, @users = pagy(User.order("name ASC"),
+    @pagy, @users = pagy(User.activated_accounts.order("name ASC"),
                          items: Settings.pagy.limit_per_page)
   end
 
@@ -18,8 +18,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t "home.welcome_message"
+      @user.send_activation_email
+      flash[:info] = t "signup_page.noti"
       redirect_to @user
     else
       flash.now[:danger] = t "error.signup_failed"

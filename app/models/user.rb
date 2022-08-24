@@ -1,8 +1,8 @@
 class User < ApplicationRecord
-  attr_accessor :remember_token
+  attr_accessor :remember_token, :activation_token
 
-  # Em chay "framgia-ci run --local" thi no bao khong duoc de dau cach o day a
   before_save{email.downcase!}
+  before_create :create_activation_digest
   validates :name, presence: true,
                    length: {maximum: Settings.validation.name_max_digits}
   validates :email, presence: true,
@@ -12,6 +12,8 @@ class User < ApplicationRecord
   validates :password, presence: true,
                       length: {minimum: Settings.validation.password_min_digits}
   has_secure_password
+
+  scope :activated_accounts, ->{where(activated: true)}
 
   # Return the hash digest of the given string.
   class << self
@@ -37,12 +39,33 @@ class User < ApplicationRecord
   end
 
   # Returns true if the given token matches the digest.
-  def authenticated? remember_token
-    BCrypt::Password.new(remember_digest).is_password?(remember_token)
+  def authenticated? attribute, token
+    digest = send("#{attribute}_digest")
+    return false unless digest
+
+    BCrypt::Password.new(digest).is_password?(token)
   end
 
   # Forgets a user.
   def forget
     update_attribute(:remember_digest, nil)
+  end
+
+  # Activates an account
+  def activate
+    update_columns(activated: true, activated_at: Time.zone.now)
+  end
+
+  # Send activation email
+  def send_activation_email
+    UserMailer.account_activation(self).deliver_now
+  end
+
+  private
+
+  # Creates and assigns the activation token and digest
+  def create_activation_digest
+    self.activation_token = User.new_token
+    self.activation_digest = User.digest(activation_token)
   end
 end

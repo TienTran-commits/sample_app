@@ -17,6 +17,7 @@ gem "config"
 gem "rails-i18n"
 gem "faker"
 gem "pagy"
+gem "figaro"
 
 gem "image_processing", "~> 1.2"
 
