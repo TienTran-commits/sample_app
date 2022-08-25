@@ -22,3 +22,6 @@ gravatar:
 
 pagy:
   limit_per_page: 30
+
+pw_res:
+  expire: 2
