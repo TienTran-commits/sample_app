@@ -76,6 +76,8 @@ vi:
     pw_res_failed: "Mat khau khong hop le."
     res_link_expired: "Link cap lai mat khau da het han."
     pw_empty: "khong duoc de trong"
+    post:
+      not_deleted: "Hien tai chua the xoa bai dang."
   usr_msg: "Xin hãy đăng nhập"
   admin:
     warn: "Bạn chắc chứ? :v"
@@ -104,3 +106,21 @@ vi:
       warn: "Neu ban khong yeu cau cap lai mat khau, xin hay bo qua thu nay va mat khau cua ban van se duoc giu nhu cu."
     btn: "Cap lai mat khau"
     noti: "Mat khau da duoc cap lai."
+  micropost:
+    label: "Bai dang"
+    posted: "Dc dang "
+    ago: " truoc."
+    created_noti: "Da tao bai dang!"
+    placeholder: "Tao bai dang moi..."
+    btn: "Dang"
+    del: "xoa"
+    warn: "Ban chac chu?"
+    noti: "Da xoa bai dang"
+    img_fmt_warn: "phai co format hop le"
+    img_size_warn: "phai be hon 5MB"
+    img_alert: "Dung luong toi da duoc cho phep la 5MB. Hay chon 1 file khac."
+  prf:
+    link: "xem ho so cua toi"
+    posts: " bai dang"
+  feed:
+    title: "Tin tuc"

@@ -18,8 +18,10 @@ gem "rails-i18n"
 gem "faker"
 gem "pagy"
 gem "figaro"
-
-gem "image_processing", "~> 1.2"
+gem "image_processing"
+gem "mini_magick"
+gem "active_storage_validations"
+gem "i18n-js"
 
 gem "bootsnap", ">= 1.4.4", require: false
 

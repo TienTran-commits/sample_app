@@ -6,10 +6,13 @@ class UsersController < ApplicationController
 
   def index
     @pagy, @users = pagy(User.activated_accounts.order("name ASC"),
-                         items: Settings.pagy.limit_per_page)
+                         items: Settings.pagy.usr_per_page)
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy(@user.microposts,
+                              items: Settings.pagy.micro_per_page)
+  end
 
   def new
     @user = User.new
