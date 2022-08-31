@@ -109,6 +109,7 @@ en:
     pw_empty: "can't be empty"
     post:
       not_deleted: "Failed to delete."
+    relationship_not_found: "No relationship can be found."
   usr_msg: "Please log in."
   admin:
     warn: "You sure?"
@@ -155,3 +156,10 @@ en:
     posts: " micropost"
   feed:
     title: "Micropost Feed"
+  stat:
+    following: "following"
+    follower: "followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  fl_ing_title: "Following"
+  fl_er_title: "Followers"

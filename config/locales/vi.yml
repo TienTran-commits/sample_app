@@ -78,6 +78,7 @@ vi:
     pw_empty: "khong duoc de trong"
     post:
       not_deleted: "Hien tai chua the xoa bai dang."
+    relationship_not_found: "Khong co moi lien he nao."
   usr_msg: "Xin hãy đăng nhập"
   admin:
     warn: "Bạn chắc chứ? :v"
@@ -124,3 +125,10 @@ vi:
     posts: " bai dang"
   feed:
     title: "Tin tuc"
+  stat:
+    following: "dang theo doi"
+    follower: "nguoi theo doi"
+  follow: "Theo doi"
+  unfollow: "Bo theo doi"
+  fl_ing_title: "Dang theo doi"
+  fl_er_title: "Danh sach theo doi"

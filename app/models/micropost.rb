@@ -9,7 +9,7 @@ class Micropost < ApplicationRecord
                            message: I18n.t("micropost.img_size_warn")}
 
   scope :ordered, ->{order(created_at: :desc)}
-  scope :by_user, ->(id){where(user_id: id)}
+  scope :by_users, ->(ids){where(user_id: ids)}
 
   delegate :name, to: :user, prefix: true
 
