@@ -36,3 +36,7 @@ img:
   resolution_limit: [500, 500]
   formats: <%= %w[image/jpeg image/gif image/png] %>
   accepted_formats: "image/jpeg,image/gif,image/png"
+
+follower:
+  avt:
+    size: 30
